@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class day2hw2 {
+public class Hw315Test2_2 {
     public static void main(String[] args) {
         String sname;
         Scanner input = new Scanner(System.in);

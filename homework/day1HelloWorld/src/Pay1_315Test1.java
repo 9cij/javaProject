@@ -1,4 +1,4 @@
-public class Pay1 {
+public class Pay1_315Test1 {
     public static void main(String[] args) {
         //某读者的购书清单
         //在Pay1.java文件中声明变量存储信息,如图书价格,数量,折扣等
