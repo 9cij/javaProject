@@ -21,5 +21,7 @@ public class hw0322CompanySalary {
         System.out.println("物价津贴："+allowance);
         System.out.println("房租津贴："+rent_allowance);
         System.out.println("实领工资："+real_salary);
+
     }
+
 }
