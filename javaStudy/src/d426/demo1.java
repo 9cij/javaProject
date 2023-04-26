@@ -13,39 +13,39 @@ import java.util.Scanner;
 public class demo1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-//        boolean flag = false;
         double score;
         int nums = 0;
-//        int cntStu = 0;
-//        System.out.println("input -1 exit");
-        //String name = input.nextLine();
+        boolean flag = false;
 
-//        do {
-//            for (int i = 0; i < 5; i++) {
-//                System.out.println("plz input student" + i + "'s score:");
-//                score = input.nextDouble();
-//                if ((int) score == -1) {
-//                    flag = true;
-//                } else {
-//                    cntStu++;
-//                }
-//                if (score >= 80) {
-//                    nums++;
-//                }
-//            }
-//        } while (!flag);
-        for(int i=0;i<5;i++){
+        int cntStu = 0;
+        System.out.println("input -1 exit");
+
+        do {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("plz input student" + i + "'s score:");
+                score = input.nextDouble();
+                if ((int) score == -1) {
+                    flag = true;
+                } else {
+                    cntStu++;
+                }
+                if (score >= 80) {
+                    nums++;
+                }
+            }
+        } while (!flag);
+
+        for (int i = 0; i < 5; i++) {
             System.out.println("plz input student" + i + "'s score:");
             score = input.nextDouble();
 
             if (score >= 80) {
                 nums++;
-            }else {
+            } else {
                 continue;
             }
-
         }
         System.out.println("80分以上有:" + nums + "人");
-        System.out.println("80分以上人数占比:" + (double) nums / 5 * 100 + "%");
+        System.out.println("80分以上人数占比:" + (double) nums / cntStu * 100 + "%");
     }
 }
