@@ -18,5 +18,6 @@ public class demo1 {
             sname=input.next();
         }while(!sname.equals("q"));
         System.out.println("exit!");
+
     }
 }

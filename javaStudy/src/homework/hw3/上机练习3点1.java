@@ -1,5 +1,5 @@
 
-package homework;
+package homework.hw3;
 
 /*
  * @Projectname: javaStudy
